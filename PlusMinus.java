@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class PlusMinus {
     public static void main(String[]args){
 
     // Complete the plusMinus function below.
