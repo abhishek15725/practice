@@ -7,7 +7,7 @@ public class BigSum {
         System.out.println(n);
         long[] ar=new long[n];
         long sum = 0;
-        for (int i = 0; i < ar.length; i++) {
+        for (int i = 0; i < n; i++) {
             ar[i] = sc.nextLong();
             sum = sum + ar[i];
         }
