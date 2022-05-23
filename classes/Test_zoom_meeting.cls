@@ -11,9 +11,7 @@ public class Test_zoom_meeting {
     ev.Meeting_Id__c = '89294370707';
     insert ev;
         ids.add(ev.id);
-    	
        Create_Meeting.zoom_meet(ids);
-        
         
     	lead ld = new lead();
     	ld.FirstName='test';
